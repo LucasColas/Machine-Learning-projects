@@ -3,6 +3,8 @@ import numpy as np
 import sklearn
 from sklearn import linear_model
 from sklearn.utils import shuffle 
+import matplotlib.pyplot as plt 
+import pickle
 
 data = pd.read_csv("student-mat.csv", sep=";")
 
@@ -24,6 +26,10 @@ linear.fit(x_train, y_train)
 
 acc = linear.score(x_test, y_test)
 
+with open("studentmodel.pickle", "wb") as f:
+	pickle.dump(linear, fx)
+
+
 print("accuracy : ")
 print(acc) #accuracy 
 
@@ -34,3 +40,4 @@ predictions = linear.predict(x_test)
 
 for x in range(len(predictions)):
 	print(predictions[x], x_test[x], y_test[x])
+
