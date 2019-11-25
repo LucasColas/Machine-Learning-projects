@@ -2,4 +2,12 @@
 
 A test of Machine Learning. 
 
-the files "student-mat.csv" and "test.py" must be in the same folder. 
+the files "student-mat.csv", "studentmodel.pickle" and "test.py" must be in the same folder. 
+
+To use and run this code you need to install :
+-pandas
+-numpy
+-sklearn
+-matplotlib
+-pickle
+
