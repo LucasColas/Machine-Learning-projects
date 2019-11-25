@@ -20,14 +20,17 @@ Y = np.array(data[predict])
 x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(X, Y, test_size= 0.1) #90 % of our data to train and the other 10% to test
 
 
-linear = linear_model.LinearRegression() #Define the model
+"""linear = linear_model.LinearRegression() #Define the model
 
 linear.fit(x_train, y_train)
 
 acc = linear.score(x_test, y_test)
 
 with open("studentmodel.pickle", "wb") as f:
-	pickle.dump(linear, fx)
+	pickle.dump(linear, f)""" #thanks to pickle we don't to train our model for each running.
+
+pickle_in = open("studentmodel.pickle", "rb")
+linear = pickle.load(pickle_in)
 
 
 print("accuracy : ")
