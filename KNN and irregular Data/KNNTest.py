@@ -8,7 +8,7 @@ import numpy as np
 from sklearn import linear_model, preprocessing
 
 data = pd.read_csv("car.data")
-print(data.head()) #To check if our data is loaded correctly 
+#print(data.head()) #To check if our data is loaded correctly 
 
 #Converting Data
 le = preprocessing.LabelEncoder()
