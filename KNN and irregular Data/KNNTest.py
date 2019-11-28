@@ -43,5 +43,5 @@ for x in range(len(predicted)):
 
 	n = model.kneighbors([x_test[x]], 9, True)
 	print("N: ", n)
-#Be careful it's gonna be a mess !
+
 
