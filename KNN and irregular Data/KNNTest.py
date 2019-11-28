@@ -41,4 +41,7 @@ names = ["unacc", "acc", "good", "vgood"]
 for x in range(len(predicted)):
 	print("predicted : ", names[predicted[x]], "Data: ", x_test[x], "Actual: ", names[y_test[x]])
 
-	
+	n = model.kneighbors([x_test[x]], 9, True)
+	print("N: ", n)
+#Be careful it's gonna be a mess !
+
