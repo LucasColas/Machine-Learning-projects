@@ -35,6 +35,13 @@ Linear Regression : [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.s
 
 Support Vector Machines (SVM) : [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/MrRex42/Machine-Learning-projects/blob/master/Support%20Vector%20Machines%20(SVM)/SVM.py)
 
+# Credits 
+
+Thank you to Tech With Tim for making his tutorials and helping me to learn Python. </br>
+His (awesome) youtube channel : https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg </br>
+His github : https://github.com/techwithtim 
+
+
 
 
 Support Vector Machines (SVM2) :[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://https://github.com/MrRex42/Machine-Learning-projects/blob/master/Support%20Vector%20Machines%20(SVM)/SVM2.py) 
