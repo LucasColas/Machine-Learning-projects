@@ -2,7 +2,7 @@
 
 Tests of Machine Learning. 
 
-Keep files in their same folder.
+(You should keep files in their same folder).
 
 # Run those codes
 
