@@ -37,9 +37,11 @@ Support Vector Machines (SVM) : [![Open in Gitpod](https://gitpod.io/button/open
 
 # Credits 
 
-Thank you to Tech With Tim for making his tutorials and helping me to learn Python. </br>
+Thank you to Tech With Tim for making your tutorials and helping me to learn Python. </br>
 His (awesome) youtube channel : https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg </br>
 His github : https://github.com/techwithtim 
+
+I also did other machine learning projects myself. 
 
 
 
