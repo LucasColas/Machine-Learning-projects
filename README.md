@@ -9,11 +9,11 @@ Tests of Machine Learning.
 To use and run those codes you need to install :
 
 ```
--pandas
--numpy
--sklearn
--matplotlib
--pickle
+pandas
+numpy
+sklearn
+matplotlib
+pickle
 ```
 Or you can use google colab : https://colab.research.google.com/ (you don't need to install any modules)
 
